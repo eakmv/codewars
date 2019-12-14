@@ -1,3 +1,7 @@
+"""
+https://www.codewars.com/kata/515decfd9dcfc23bb6000006
+"""
+
 def is_valid_IP(strng):
     for n in strng:
         if n.isspace():
