@@ -1,3 +1,7 @@
+'''
+https://www.codewars.com/kata/5547cc7dcad755e480000004
+'''
+
 def removNb(n):
     sum_n = sum(range(0, n + 1))
     result = []
