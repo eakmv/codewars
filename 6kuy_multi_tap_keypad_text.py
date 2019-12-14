@@ -1,3 +1,7 @@
+"""
+https://www.codewars.com/kata/54a2e93b22d236498400134b
+"""
+
 def num_press(let):
     alphabet =\
         {1: ['a', 'd', 'g', 'j', 'm', 'p', 't', 'w', '*', ' ', '#', '1'],
