@@ -1,3 +1,7 @@
+"""
+https://www.codewars.com/kata/52efefcbcdf57161d4000091
+"""
+
 def expanded_form(num):
     fin_list=[]
     count = len(str(num))

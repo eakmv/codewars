@@ -1,3 +1,7 @@
+"""
+https://www.codewars.com/kata/5592e3bd57b64d00f3000047
+"""
+
 def find_nb(m):
     summa = 0
     count = 1
