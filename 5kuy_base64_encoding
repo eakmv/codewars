@@ -1,0 +1,45 @@
+"""
+https://www.codewars.com/kata/5270f22f862516c686000161
+"""
+import math
+
+def to_base_64(string):
+    bin_str = ''
+    base64_word = ''
+    for a in string:
+        bin_str += bin(ord(a)).replace('b', '').zfill(8)
+
+    test_list = []
+    print(bin_str)
+    for i in range(math.ceil(len(bin_str)/6)):
+        print(int(bin_str[:6], 2))
+        test_list.append(int(bin_str[:6].ljust(6,'0'), 2))
+        bin_str = bin_str[6:]
+
+    for ch in test_list:
+        if 0 <= ch <= 25:
+            base64_word += chr(ch + 65)
+        elif 52 <= ch <= 61:
+            base64_word += chr(ch - 4)
+        else:
+            base64_word += chr(ch + 71)
+    return base64_word
+
+def from_base_64(string):
+    bin_str = ''
+    word = ''
+    for a in string:
+        if 65 <= ord(a) <= 90:
+            bin_str += bin(ord(a) - 65).replace('b', '').zfill(6)
+        elif 48 <= ord(a) <= 57:
+            bin_str += bin(ord(a) + 4).replace('b', '')[1:].zfill(6)
+        else:
+            print(bin(ord(a) - 71).replace('b', '')[1:].zfill(6))
+            bin_str += bin(ord(a) - 71).replace('b', '')[1:].zfill(6)
+    test_list = []
+    for i in range(int(len(bin_str) / 8)):
+        test_list.append(int(bin_str[:8], 2))
+        bin_str = bin_str[8:]
+    for a in test_list:
+        word += chr(a)
+    return word
