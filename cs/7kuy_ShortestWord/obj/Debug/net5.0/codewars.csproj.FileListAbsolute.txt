@@ -1,0 +1,16 @@
+C:\Projects\Learning\CS_lab\codewars\bin\Debug\net5.0\codewars.exe
+C:\Projects\Learning\CS_lab\codewars\bin\Debug\net5.0\codewars.deps.json
+C:\Projects\Learning\CS_lab\codewars\bin\Debug\net5.0\codewars.runtimeconfig.json
+C:\Projects\Learning\CS_lab\codewars\bin\Debug\net5.0\codewars.runtimeconfig.dev.json
+C:\Projects\Learning\CS_lab\codewars\bin\Debug\net5.0\codewars.dll
+C:\Projects\Learning\CS_lab\codewars\bin\Debug\net5.0\ref\codewars.dll
+C:\Projects\Learning\CS_lab\codewars\bin\Debug\net5.0\codewars.pdb
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.csprojAssemblyReference.cache
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.AssemblyInfoInputs.cache
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.AssemblyInfo.cs
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.csproj.CoreCompileInputs.cache
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.dll
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\ref\codewars.dll
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.pdb
+C:\Projects\Learning\CS_lab\codewars\obj\Debug\net5.0\codewars.genruntimeconfig.cache
